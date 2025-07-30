@@ -1,0 +1,15 @@
+# ResoNet SER project requirements
+# Created: 2025-07-30
+
+torch==2.6.0
+torchaudio==2.6.0
+numpy==1.23.5
+scikit-learn==1.7.1
+scipy>=1.10
+librosa==0.10.2.post1
+matplotlib==3.7.1
+tqdm==4.67.1
+pandas==2.3.1
+seaborn==0.13.2
+transformers==4.49.0
+statsmodels==0.14.4
