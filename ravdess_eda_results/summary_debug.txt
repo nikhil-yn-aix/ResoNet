@@ -1,0 +1,27 @@
+RAVDESS Summary (Debug Run)
+=============================
+Total files processed for feature extraction:  1440 
+Emotions included:  neutral, calm, happy, sad, angry, fearful, disgust, surprised 
+
+Mean Features per Emotion (calculated only from rows with valid values for that feature):
+# A tibble: 8 × 12
+  emotion   n_files pitch_mean pitch_n_valid zcr_mean zcr_n_valid centroid_mean centroid_n_valid
+  <chr>       <int>      <dbl>         <int>    <dbl>       <int>         <dbl>            <int>
+1 angry         192       245.           192     1.04         192         2288.              192
+2 calm          192       185.           192     1            192         2099.              192
+3 disgust       192       204.           192     1.05         192         2352.              192
+4 fearful       192       257.           192     0.97         192         2219.              192
+5 happy         192       237.           192     0.97         192         2051.              192
+6 neutral        96       190.            96     0.93          96         1895.               96
+7 sad           192       213.           192     0.98         192         2036.              192
+8 surprised     192       233.           192     0.93         192         2135.              192
+  flatness_mean flatness_n_valid energy_mean energy_n_valid
+          <dbl>            <int>       <dbl>          <int>
+1          0.64              192       649.             192
+2          0.6               192        66.4            192
+3          0.67              192       159.             192
+4          0.62              192       396.             192
+5          0.58              192       306.             192
+6          0.55               96        77.4             96
+7          0.58              192       127.             192
+8          0.62              192       209.             192
